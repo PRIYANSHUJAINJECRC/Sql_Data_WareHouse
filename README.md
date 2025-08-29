@@ -1,3 +1,10 @@
+# 📊 Data Warehouse Project using SQL
+
+This project demonstrates the design and implementation of a **Data Warehouse** using SQL.  
+It integrates data from multiple sources, applies **ETL (Extract, Transform, Load)** processes, and organizes it into a **Star Schema** for efficient analytics and reporting.
+
+---
+
 ### Specifications
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.  
 - **Data Quality**: Cleanse and resolve data quality issues prior to analysis.  
