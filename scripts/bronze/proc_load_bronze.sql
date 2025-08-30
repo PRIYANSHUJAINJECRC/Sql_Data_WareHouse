@@ -125,3 +125,5 @@ print 'Total Execution Duration: ' + cast(@duration as varchar(50)) + ' seconds'
 print '=================================';
 
 end;
+--To execute the stored procedure use the following Cammand
+exec bronze.load_bronze;
