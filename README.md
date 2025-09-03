@@ -24,8 +24,13 @@ The Data Warehouse is organized into three layers:
    - Used for reporting, business intelligence, and machine learning.  
 
 ### 🖼️ Data Warehouse Architecture Diagram
+![Architecture](ArchitectureDataWareHouse.drawio.png)
 
-<img width="921" height="546" alt="ArchitectureDataWareHouse drawio" src="https://github.com/user-attachments/assets/28b1c7dc-d714-46ae-b731-29c7e565fdee" />
+---
+
+## 📑 Project Planning
+For detailed documentation, objectives, and project planning, check the following link:  
+👉 [Data Warehouse Project Planning (Notion)](https://periodic-tadpole-9f6.notion.site/DATA-WareHouse-Project-25de783a366f80b5a75cfa910bfe6470)
 
 ---
 
