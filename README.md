@@ -1,36 +1,55 @@
-# 📊 Data Warehouse Project using SQL
+# Data Warehouse Project
 
-This project demonstrates the design and implementation of a **Data Warehouse** using SQL.  
-It integrates data from multiple sources, applies **ETL (Extract, Transform, Load)** processes, and organizes it into a **Star Schema** for efficient analytics and reporting.
-
----
-
-### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.  
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.  
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.  
-- **Scope**: Focus on the latest dataset only; historization of data is not required.  
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.  
+## 📌 Overview
+This project implements a **Data Warehouse** using SQL and follows a layered architecture approach (Bronze, Silver, and Golden layers). The design ensures scalability, performance, and data quality while supporting business analysis, ad-hoc queries, and machine learning workloads.
 
 ---
 
-### BI: Analytics & Reporting (Data Analytics)
+## 🏗️ Architecture
+The Data Warehouse is organized into three layers:
 
-#### Objective
-Develop SQL-based analytics to deliver detailed insights into:  
-- **Customer Behavior**  
-- **Product Performance**  
-- **Sales Trends**  
+1. **Bronze Layer (Raw Data)**  
+   - Stores raw data ingested from source systems (ERP, CRM, CSV files).  
+   - No transformations are applied.  
+   - Data is stored *as-is*.  
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+2. **Silver Layer (Cleaned & Standardized Data)**  
+   - Contains standardized, cleansed, and enriched data.  
+   - Includes derived columns, normalization, and data quality checks.  
+   - Prepares data for analytics and integration.  
+
+3. **Golden Layer (Business-Ready Data)**  
+   - Aggregated, business-ready data.  
+   - Supports **star schema models, flat tables, and aggregated tables**.  
+   - Used for reporting, business intelligence, and machine learning.  
+
+### 🖼️ Data Warehouse Architecture Diagram
+
+<img width="921" height="546" alt="ArchitectureDataWareHouse drawio" src="https://github.com/user-attachments/assets/28b1c7dc-d714-46ae-b731-29c7e565fdee" />
 
 ---
 
-## 📜 License
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.  
+## ⚙️ Tech Stack
+- **Database:** MySQL Server  
+- **ETL:** SQL scripts (batch processing, full load, truncate & insert)  
+- **Data Modeling:** Star Schema, Flat Tables  
+- **Consumers:**  
+  - Business Analysis  
+  - SQL Ad-Hoc Queries  
+  - Machine Learning Models  
 
 ---
 
-## 👨‍💻 About Me
-Hi there! I'm **Priyanshu Jain**.  
-I’m an IT professional and aspiring developer passionate about building data-driven solutions and sharing knowledge in a way that is enjoyable and engaging!
+## 🚀 Features
+- Layered data storage (Bronze, Silver, Golden)  
+- Supports batch and full load ingestion  
+- Data transformation and enrichment in Silver layer  
+- Aggregated, business-ready data in Golden layer  
+- Enables analytics and machine learning  
+
+---
+
+## 🛠️ Setup Instructions
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/data-warehouse-project.git
