@@ -23,8 +23,9 @@ The Data Warehouse is organized into three layers:
    - Supports **star schema models, flat tables, and aggregated tables**.  
    - Used for reporting, business intelligence, and machine learning.  
 
-### 🖼️ Data Warehouse Architecture Diagram
-![Architecture](ArchitectureDataWareHouse.drawio.png)
+
+🖼️ Data Warehouse Architecture Diagram
+### <img width="921" height="546" alt="ArchitectureDataWareHouse drawio" src="https://github.com/user-attachments/assets/1557f9cf-ba6b-4644-80b3-3cfc6bf2422d" />
 
 ---
 
